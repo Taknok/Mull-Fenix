@@ -53,14 +53,14 @@ pushd "$fenix"
 
 # Set up the app ID, version name and version code
 sed -i \
-    -e 's|applicationId "org.mozilla"|applicationId "us.spotco"|' \
-    -e 's|applicationIdSuffix ".firefox"|applicationIdSuffix ".fennec_dos"|' \
-    -e 's|"sharedUserId": "org.mozilla.firefox.sharedID"|"sharedUserId": "us.spotco.fennec_dos.sharedID"|' \
+    -e 's|applicationId "org.mozilla"|applicationId "com.deeperwire"|' \
+    -e 's|applicationIdSuffix ".firefox"|applicationIdSuffix ".ermine"|' \
+    -e 's|"sharedUserId": "org.mozilla.firefox.sharedID"|"sharedUserId": "com.deeperwire.ermine.sharedID"|' \
     -e "s/Config.releaseVersionName(project)/'$1'/" \
     -e "s/Config.generateFennecVersionCode(arch, aab)/$2/" \
     app/build.gradle
 sed -i \
-    -e '/android:targetPackage/s/org.mozilla.firefox/us.spotco.fennec_dos/' \
+    -e '/android:targetPackage/s/org.mozilla.firefox/com.deeperwire.ermine/' \
     app/src/release/res/xml/shortcuts.xml
 
 # Disable crash reporting
@@ -69,9 +69,9 @@ sed -i -e '/CRASH_REPORTING/s/true/false/' app/build.gradle
 # Disable MetricController
 sed -i -e '/TELEMETRY/s/true/false/' app/build.gradle
 
-# Let it be Mull
+# Let it be Ermine
 sed -i \
-    -e 's/Firefox Daylight/Mull/; s/Firefox/Mull/g' \
+    -e 's/Firefox Daylight/Ermine/; s/Firefox/Ermine/g' \
     -e '/about_content/s/Mozilla/Divested Computing Group/' \
     app/src/*/res/values*/*strings.xml
 
@@ -79,9 +79,9 @@ sed -i \
 # the label, see
 # app/src/main/java/org/mozilla/fenix/perf/ProfilerStartDialogFragment.kt#185
 sed -i \
-    -e '/Firefox(.*, .*)/s/Firefox/Mull/' \
-    -e 's/firefox_threads/mull_threads/' \
-    -e 's/firefox_features/mull_features/' \
+    -e '/Firefox(.*, .*)/s/Firefox/Ermine/' \
+    -e 's/firefox_threads/ermine_threads/' \
+    -e 's/firefox_features/ermine_features/' \
     app/src/main/java/org/mozilla/fenix/perf/ProfilerUtils.kt
 
 # Replace proprietary artwork

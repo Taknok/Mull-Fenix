@@ -6,13 +6,13 @@ Categories:
 License: MPL-2.0
 AuthorName: Divested Computing Group
 AuthorWebSite: https://divestos.org
-SourceCode: https://gitlab.com/divested-mobile/mull-fenix
-IssueTracker: https://gitlab.com/divested-mobile/mull-fenix/issues
+SourceCode: https://github.com/Taknok/Ermine
+IssueTracker: https://github.com/Taknok/Ermine
 
-Name: Mull
+Name: Ermine
 
 RepoType: git
-Repo: https://codeberg.org/divested-mobile/mull-fenix.git
+Repo: https://github.com/Taknok/Ermine.git
 
 Builds:
   - versionName: 89.1.1
@@ -27,14 +27,14 @@ Builds:
       - MozAndroidComponents@v75.0.22
       - MozAndroidComponentsAS@v71.0.0
       - MozAppServices@v74.0.1
-      - MullBuild@v89.1.1
+      - ErmineBuild@v89.1.1
       - MozFennec@FIREFOX_89_0_RELEASE
       - MozGlean@v35.0.0
       - MozGleanAS@v33.1.2
       - pyenv@v2.0.0
       - rustup@1.24.2
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -52,14 +52,14 @@ Builds:
       - MozAndroidComponents@v75.0.22
       - MozAndroidComponentsAS@v71.0.0
       - MozAppServices@v74.0.1
-      - MullBuild@v89.1.1
+      - ErmineBuild@v89.1.1
       - MozFennec@FIREFOX_89_0_RELEASE
       - MozGlean@v35.0.0
       - MozGleanAS@v33.1.2
       - pyenv@v2.0.0
       - rustup@1.24.2
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -77,14 +77,14 @@ Builds:
       - MozAndroidComponents@v90.0.12
       - MozAndroidComponentsAS@v75.0.0
       - MozAppServices@v77.0.2
-      - MullBuild@v90.1.1
+      - ErmineBuild@v90.1.1
       - MozFennec@FIREFOX_90_0_RELEASE
       - MozGlean@v38.0.0
       - MozGleanAS@v35.0.0
       - pyenv@v2.0.3
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -102,14 +102,14 @@ Builds:
       - MozAndroidComponents@v90.0.12
       - MozAndroidComponentsAS@v75.0.0
       - MozAppServices@v77.0.2
-      - MullBuild@v90.1.1
+      - ErmineBuild@v90.1.1
       - MozFennec@FIREFOX_90_0_RELEASE
       - MozGlean@v38.0.0
       - MozGleanAS@v35.0.0
       - pyenv@v2.0.3
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -127,14 +127,14 @@ Builds:
       - MozAndroidComponents@v91.0.12
       - MozAndroidComponentsAS@v75.0.0
       - MozAppServices@v79.0.0
-      - MullBuild@v91.1.0
+      - ErmineBuild@v91.1.0
       - MozFennec@FIREFOX_91_0_RELEASE
       - MozGlean@v39.0.3
       - MozGleanAS@v35.0.0
       - pyenv@v2.0.4
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -152,14 +152,14 @@ Builds:
       - MozAndroidComponents@v91.0.12
       - MozAndroidComponentsAS@v75.0.0
       - MozAppServices@v79.0.0
-      - MullBuild@v91.1.0
+      - ErmineBuild@v91.1.0
       - MozFennec@FIREFOX_91_0_RELEASE
       - MozGlean@v39.0.3
       - MozGleanAS@v35.0.0
       - pyenv@v2.0.4
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -177,14 +177,14 @@ Builds:
       - MozAndroidComponents@v91.0.13
       - MozAndroidComponentsAS@v75.0.0
       - MozAppServices@v79.0.0
-      - MullBuild@v91.2.0
+      - ErmineBuild@v91.2.0
       - MozFennec@FIREFOX_91_0_1_RELEASE
       - MozGlean@v39.0.3
       - MozGleanAS@v35.0.0
       - pyenv@v2.0.4
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -202,14 +202,14 @@ Builds:
       - MozAndroidComponents@v91.0.13
       - MozAndroidComponentsAS@v75.0.0
       - MozAppServices@v79.0.0
-      - MullBuild@v91.2.0
+      - ErmineBuild@v91.2.0
       - MozFennec@FIREFOX_91_0_1_RELEASE
       - MozGlean@v39.0.3
       - MozGleanAS@v35.0.0
       - pyenv@v2.0.4
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -228,14 +228,14 @@ Builds:
       - MozAndroidComponents@v92.0.15
       - MozAndroidComponentsAS@v91.0.3
       - MozAppServices@v82.1.0
-      - MullBuild@v92.1.1
+      - ErmineBuild@v92.1.1
       - MozFennec@FIREFOX_92_0_RELEASE
       - MozGlean@v39.0.3
       - MozGleanAS@v35.0.0
       - pyenv@v2.0.6
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -254,14 +254,14 @@ Builds:
       - MozAndroidComponents@v92.0.15
       - MozAndroidComponentsAS@v91.0.3
       - MozAppServices@v82.1.0
-      - MullBuild@v92.1.1
+      - ErmineBuild@v92.1.1
       - MozFennec@FIREFOX_92_0_RELEASE
       - MozGlean@v39.0.3
       - MozGleanAS@v35.0.0
       - pyenv@v2.0.6
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -280,14 +280,14 @@ Builds:
       - MozAndroidComponents@v93.0.11
       - MozAndroidComponentsAS@v91.0.3
       - MozAppServices@v82.1.0
-      - MullBuild@v93.1.0
+      - ErmineBuild@v93.1.0
       - MozFennec@FIREFOX_93_0_RELEASE
       - MozGlean@v39.0.3
       - MozGleanAS@v35.0.0
       - pyenv@v2.0.7
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -306,14 +306,14 @@ Builds:
       - MozAndroidComponents@v93.0.11
       - MozAndroidComponentsAS@v91.0.3
       - MozAppServices@v82.1.0
-      - MullBuild@v93.1.0
+      - ErmineBuild@v93.1.0
       - MozFennec@FIREFOX_93_0_RELEASE
       - MozGlean@v39.0.3
       - MozGleanAS@v35.0.0
       - pyenv@v2.0.7
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -332,14 +332,14 @@ Builds:
       - MozAndroidComponents@v94.0.12
       - MozAndroidComponentsAS@v91.0.3
       - MozAppServices@v85.4.0
-      - MullBuild@v94.1.1
+      - ErmineBuild@v94.1.1
       - MozFennec@FIREFOX_94_0_RELEASE
       - MozGlean@v42.0.1
       - MozGleanAS@v39.0.3
       - pyenv@v2.1.0
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -358,14 +358,14 @@ Builds:
       - MozAndroidComponents@v94.0.12
       - MozAndroidComponentsAS@v91.0.3
       - MozAppServices@v85.4.0
-      - MullBuild@v94.1.1
+      - ErmineBuild@v94.1.1
       - MozFennec@FIREFOX_94_0_RELEASE
       - MozGlean@v42.0.1
       - MozGleanAS@v39.0.3
       - pyenv@v2.1.0
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -384,14 +384,14 @@ Builds:
       - MozAndroidComponents@v95.0.13
       - MozAndroidComponentsAS@v91.0.3
       - MozAppServices@v86.0.1
-      - MullBuild@v95.1.0
+      - ErmineBuild@v95.1.0
       - MozFennec@FIREFOX_95_0_BUILD1
       - MozGlean@v42.0.1
       - MozGleanAS@v39.0.3
       - pyenv@v2.2.2
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -410,14 +410,14 @@ Builds:
       - MozAndroidComponents@v95.0.13
       - MozAndroidComponentsAS@v91.0.3
       - MozAppServices@v86.0.1
-      - MullBuild@v95.1.0
+      - ErmineBuild@v95.1.0
       - MozFennec@FIREFOX_95_0_BUILD1
       - MozGlean@v42.0.1
       - MozGleanAS@v39.0.3
       - pyenv@v2.2.2
       - rustup@1.24.3
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -436,15 +436,15 @@ Builds:
       - MozAndroidComponents@v95.0.14
       - MozAndroidComponentsAS@v91.0.3
       - MozAppServices@v86.0.1
-      - MullBuild@v95.2.0-2
+      - ErmineBuild@v95.2.0-2
       - MozFennec@FIREFOX_95_0_1_RELEASE
       - MozGlean@v42.0.1
       - MozGleanAS@v39.0.3
       - pyenv@v2.2.2
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -463,15 +463,15 @@ Builds:
       - MozAndroidComponents@v95.0.14
       - MozAndroidComponentsAS@v91.0.3
       - MozAppServices@v86.0.1
-      - MullBuild@v95.2.0-2
+      - ErmineBuild@v95.2.0-2
       - MozFennec@FIREFOX_95_0_1_RELEASE
       - MozGlean@v42.0.1
       - MozGleanAS@v39.0.3
       - pyenv@v2.2.2
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21e
     antifeatures:
       KnownVuln:
@@ -491,15 +491,15 @@ Builds:
       - MozAndroidComponents@v96.0.11
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v86.2.1
-      - MullBuild@v96.1.1
+      - ErmineBuild@v96.1.1
       - MozFennec@FIREFOX_96_0_RELEASE
       - MozGlean@v42.0.1
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.3
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -519,15 +519,15 @@ Builds:
       - MozAndroidComponents@v96.0.11
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v86.2.1
-      - MullBuild@v96.1.1
+      - ErmineBuild@v96.1.1
       - MozFennec@FIREFOX_96_0_RELEASE
       - MozGlean@v42.0.1
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.3
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -547,15 +547,15 @@ Builds:
       - MozAndroidComponents@v96.0.15
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v86.2.2
-      - MullBuild@v96.3.0
+      - ErmineBuild@v96.3.0
       - MozFennec@FIREFOX_96_0_3_RELEASE
       - MozGlean@v42.1.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.3
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -575,15 +575,15 @@ Builds:
       - MozAndroidComponents@v96.0.15
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v86.2.2
-      - MullBuild@v96.3.0
+      - ErmineBuild@v96.3.0
       - MozFennec@FIREFOX_96_0_3_RELEASE
       - MozGlean@v42.1.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.3
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -603,15 +603,15 @@ Builds:
       - MozAndroidComponents@v97.0.11
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v87.1.0
-      - MullBuild@v97.1.1
+      - ErmineBuild@v97.1.1
       - MozFennec@FIREFOX_97_0_RELEASE
       - MozGlean@v42.3.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.4
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -631,15 +631,15 @@ Builds:
       - MozAndroidComponents@v97.0.11
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v87.1.0
-      - MullBuild@v97.1.1
+      - ErmineBuild@v97.1.1
       - MozFennec@FIREFOX_97_0_RELEASE
       - MozGlean@v42.3.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.4
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -659,15 +659,15 @@ Builds:
       - MozAndroidComponents@v98.0.9
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.0.1
-      - MullBuild@v98.1.0
+      - ErmineBuild@v98.1.0
       - MozFennec@FIREFOX_98_0_BUILD2
       - MozGlean@v43.0.2
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.4
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -687,15 +687,15 @@ Builds:
       - MozAndroidComponents@v98.0.9
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.0.1
-      - MullBuild@v98.1.0
+      - ErmineBuild@v98.1.0
       - MozFennec@FIREFOX_98_0_BUILD2
       - MozGlean@v43.0.2
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.4
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -715,15 +715,15 @@ Builds:
       - MozAndroidComponents@v98.0.11
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.0.1
-      - MullBuild@v98.1.1
+      - ErmineBuild@v98.1.1
       - MozFennec@FIREFOX_98_0_RELEASE
       - MozGlean@v43.0.2
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.4
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -743,15 +743,15 @@ Builds:
       - MozAndroidComponents@v98.0.11
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.0.1
-      - MullBuild@v98.1.1
+      - ErmineBuild@v98.1.1
       - MozFennec@FIREFOX_98_0_RELEASE
       - MozGlean@v43.0.2
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.4
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -771,15 +771,15 @@ Builds:
       - MozAndroidComponents@v98.0.12
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.0.1
-      - MullBuild@v98.2.0
+      - ErmineBuild@v98.2.0
       - MozFennec@FIREFOX_98_0_1_RELEASE
       - MozGlean@v43.0.2
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.4
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -799,15 +799,15 @@ Builds:
       - MozAndroidComponents@v98.0.12
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.0.1
-      - MullBuild@v98.2.0
+      - ErmineBuild@v98.2.0
       - MozFennec@FIREFOX_98_0_1_RELEASE
       - MozGlean@v43.0.2
       - MozGleanAS@v41.1.1
       - pyenv@v2.2.4
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -827,15 +827,15 @@ Builds:
       - MozAndroidComponents@v100.0.10
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.1.1
-      - MullBuild@v100.1.1
+      - ErmineBuild@v100.1.1
       - MozFennec@FIREFOX_100_0_RELEASE
       - MozGlean@v44.0.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.0
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -855,15 +855,15 @@ Builds:
       - MozAndroidComponents@v100.0.10
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.1.1
-      - MullBuild@v100.1.1
+      - ErmineBuild@v100.1.1
       - MozFennec@FIREFOX_100_0_RELEASE
       - MozGlean@v44.0.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.0
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -883,15 +883,15 @@ Builds:
       - MozAndroidComponents@v100.0.11
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.1.1
-      - MullBuild@v100.1.3
+      - ErmineBuild@v100.1.3
       - MozFennec@FIREFOX_100_0_1_BUILD1
       - MozGlean@v44.0.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.0
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -911,15 +911,15 @@ Builds:
       - MozAndroidComponents@v100.0.11
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.1.1
-      - MullBuild@v100.1.3
+      - ErmineBuild@v100.1.3
       - MozFennec@FIREFOX_100_0_1_BUILD1
       - MozGlean@v44.0.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.0
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -939,15 +939,15 @@ Builds:
       - MozAndroidComponents@v100.0.12
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.1.1
-      - MullBuild@v100.3.0
+      - ErmineBuild@v100.3.0
       - MozFennec@FIREFOX_100_0_2_BUILD1
       - MozGlean@v44.0.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.0
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -967,15 +967,15 @@ Builds:
       - MozAndroidComponents@v100.0.12
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.1.1
-      - MullBuild@v100.3.0
+      - ErmineBuild@v100.3.0
       - MozFennec@FIREFOX_100_0_2_BUILD1
       - MozGlean@v44.0.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.0
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -995,15 +995,15 @@ Builds:
       - MozAndroidComponents@v101.0.10
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.1.2
-      - MullBuild@v101.1.1
+      - ErmineBuild@v101.1.1
       - MozFennec@FIREFOX_101_0_RELEASE
       - MozGlean@v44.1.1
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.1
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1023,15 +1023,15 @@ Builds:
       - MozAndroidComponents@v101.0.10
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v91.1.2
-      - MullBuild@v101.1.1
+      - ErmineBuild@v101.1.1
       - MozFennec@FIREFOX_101_0_RELEASE
       - MozGlean@v44.1.1
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.1
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1051,15 +1051,15 @@ Builds:
       - MozAndroidComponents@v102.0.12
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v93.1.0
-      - MullBuild@v102.1.1-3
+      - ErmineBuild@v102.1.1-3
       - MozFennec@FIREFOX_102_0_RELEASE
       - MozGlean@v44.1.1
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.1
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1079,15 +1079,15 @@ Builds:
       - MozAndroidComponents@v102.0.12
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v93.1.0
-      - MullBuild@v102.1.1-3
+      - ErmineBuild@v102.1.1-3
       - MozFennec@FIREFOX_102_0_RELEASE
       - MozGlean@v44.1.1
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.1
       - rustup@1.24.3
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1107,15 +1107,15 @@ Builds:
       - MozAndroidComponents@v103.0.9
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v93.5.0
-      - MullBuild@v103.1.0
+      - ErmineBuild@v103.1.0
       - MozFennec@FIREFOX_103_0_RELEASE
       - MozGlean@v50.1.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.2
       - rustup@1.25.1
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1135,15 +1135,15 @@ Builds:
       - MozAndroidComponents@v103.0.9
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v93.5.0
-      - MullBuild@v103.1.0
+      - ErmineBuild@v103.1.0
       - MozFennec@FIREFOX_103_0_RELEASE
       - MozGlean@v50.1.0
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.2
       - rustup@1.25.1
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1163,15 +1163,15 @@ Builds:
       - MozAndroidComponents@v104.0.8
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v93.7.2
-      - MullBuild@v104.1.0
+      - ErmineBuild@v104.1.0
       - MozFennec@FIREFOX_104_0_RELEASE
       - MozGlean@v50.1.4
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.3
       - rustup@1.25.1
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1191,15 +1191,15 @@ Builds:
       - MozAndroidComponents@v104.0.8
       - MozAndroidComponentsAS@v94.0.0
       - MozAppServices@v93.7.2
-      - MullBuild@v104.1.0
+      - ErmineBuild@v104.1.0
       - MozFennec@FIREFOX_104_0_RELEASE
       - MozGlean@v50.1.4
       - MozGleanAS@v41.1.1
       - pyenv@v2.3.3
       - rustup@1.25.1
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1219,15 +1219,15 @@ Builds:
       - MozAndroidComponents@v105.0.7
       - MozAndroidComponentsAS@v104.0.2
       - MozAppServices@v94.1.0
-      - MullBuild@v105.1.0
+      - ErmineBuild@v105.1.0
       - MozFennec@FIREFOX_105_0_RELEASE
       - MozGlean@v51.1.0
       - MozGleanAS@v50.1.3
       - pyenv@v2.3.4
       - rustup@1.25.1
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1247,15 +1247,15 @@ Builds:
       - MozAndroidComponents@v105.0.7
       - MozAndroidComponentsAS@v104.0.2
       - MozAppServices@v94.1.0
-      - MullBuild@v105.1.0
+      - ErmineBuild@v105.1.0
       - MozFennec@FIREFOX_105_0_RELEASE
       - MozGlean@v51.1.0
       - MozGleanAS@v50.1.3
       - pyenv@v2.3.4
       - rustup@1.25.1
       - wasi-sdk@f0d40b6491efc1e2332f55eb22e6292abdce4335
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1275,14 +1275,14 @@ Builds:
       - FirefoxAndroid@v107.0.7
       - MozAndroidComponentsAS@v104.0.2
       - MozAppServices@v94.2.2
-      - MullBuild@v107.1.0-ff
+      - ErmineBuild@v107.1.0-ff
       - MozFennec@FIREFOX_107_0_RELEASE
       - MozGlean@v51.4.0
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1302,14 +1302,14 @@ Builds:
       - FirefoxAndroid@v107.0.7
       - MozAndroidComponentsAS@v104.0.2
       - MozAppServices@v94.2.2
-      - MullBuild@v107.1.0-ff
+      - ErmineBuild@v107.1.0-ff
       - MozFennec@FIREFOX_107_0_RELEASE
       - MozGlean@v51.4.0
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1329,14 +1329,14 @@ Builds:
       - FirefoxAndroid@v107.0.8
       - MozAndroidComponentsAS@v104.0.2
       - MozAppServices@v94.2.2
-      - MullBuild@v107.2.0
+      - ErmineBuild@v107.2.0
       - MozFennec@FIREFOX_107_0_1_RELEASE
       - MozGlean@v51.4.0
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1356,14 +1356,14 @@ Builds:
       - FirefoxAndroid@v107.0.8
       - MozAndroidComponentsAS@v104.0.2
       - MozAppServices@v94.2.2
-      - MullBuild@v107.2.0
+      - ErmineBuild@v107.2.0
       - MozFennec@FIREFOX_107_0_1_RELEASE
       - MozGlean@v51.4.0
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1383,14 +1383,14 @@ Builds:
       - FirefoxAndroid@v108.0.8
       - MozAndroidComponentsAS@v107.0.2
       - MozAppServices@v95.0.1
-      - MullBuild@v108.1.0
+      - ErmineBuild@v108.1.0
       - MozFennec@FIREFOX_108_0_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1410,14 +1410,14 @@ Builds:
       - FirefoxAndroid@v108.0.8
       - MozAndroidComponentsAS@v107.0.2
       - MozAppServices@v95.0.1
-      - MullBuild@v108.1.0
+      - ErmineBuild@v108.1.0
       - MozFennec@FIREFOX_108_0_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1437,14 +1437,14 @@ Builds:
       - FirefoxAndroid@v108.1.1
       - MozAndroidComponentsAS@v107.0.2
       - MozAppServices@v95.0.1
-      - MullBuild@v108.1.1
+      - ErmineBuild@v108.1.1
       - MozFennec@FIREFOX_108_0_1_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1464,14 +1464,14 @@ Builds:
       - FirefoxAndroid@v108.1.1
       - MozAndroidComponentsAS@v107.0.2
       - MozAppServices@v95.0.1
-      - MullBuild@v108.1.1
+      - ErmineBuild@v108.1.1
       - MozFennec@FIREFOX_108_0_1_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1491,14 +1491,14 @@ Builds:
       - FirefoxAndroid@components-v109.1.1
       - MozAndroidComponentsAS@v107.0.2
       - MozAppServices@v96.1.3
-      - MullBuild@v109.1.1
+      - ErmineBuild@v109.1.1
       - MozFennec@FIREFOX_109_0_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1518,14 +1518,14 @@ Builds:
       - FirefoxAndroid@components-v109.1.1
       - MozAndroidComponentsAS@v107.0.2
       - MozAppServices@v96.1.3
-      - MullBuild@v109.1.1
+      - ErmineBuild@v109.1.1
       - MozFennec@FIREFOX_109_0_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1545,14 +1545,14 @@ Builds:
       - FirefoxAndroid@components-v109.2.0
       - MozAndroidComponentsAS@v107.0.2
       - MozAppServices@v96.1.3
-      - MullBuild@v109.2.0
+      - ErmineBuild@v109.2.0
       - MozFennec@FIREFOX_109_0_1_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1572,14 +1572,14 @@ Builds:
       - FirefoxAndroid@components-v109.2.0
       - MozAndroidComponentsAS@v107.0.2
       - MozAppServices@v96.1.3
-      - MullBuild@v109.2.0
+      - ErmineBuild@v109.2.0
       - MozFennec@FIREFOX_109_0_1_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.2.0
       - rustup@1.25.1
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1599,14 +1599,14 @@ Builds:
       - FirefoxAndroid@components-v110.0.1
       - FirefoxAndroidAS@v108.0.8
       - MozAppServices@v96.2.1
-      - MullBuild@v110.0.1
+      - ErmineBuild@v110.0.1
       - MozFennec@FIREFOX_110_0_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.8.2
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1626,14 +1626,14 @@ Builds:
       - FirefoxAndroid@components-v110.0.1
       - FirefoxAndroidAS@v108.0.8
       - MozAppServices@v96.2.1
-      - MullBuild@v110.0.1
+      - ErmineBuild@v110.0.1
       - MozFennec@FIREFOX_110_0_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.8.2
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
-    build: $$MullBuild$$/build.sh
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1652,16 +1652,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@v108.0.8
       - MozAppServices@v96.2.1
-      - MullBuild@v110.1.0
+      - ErmineBuild@v110.1.0
       - MozFennec@FIREFOX_110_0_1_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.8.2
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1680,16 +1680,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@v108.0.8
       - MozAppServices@v96.2.1
-      - MullBuild@v110.1.0
+      - ErmineBuild@v110.1.0
       - MozFennec@FIREFOX_110_0_1_RELEASE
       - MozGlean@v51.8.2
       - MozGleanAS@v51.8.2
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1708,16 +1708,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@v108.0.8
       - MozAppServices@v96.4.0
-      - MullBuild@v111.0.0
+      - ErmineBuild@v111.0.0
       - MozFennec@FIREFOX_111_0_RELEASE
       - MozGlean@v52.2.0
       - MozGleanAS@v52.0.0
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1736,16 +1736,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@v108.0.8
       - MozAppServices@v96.4.0
-      - MullBuild@v111.0.0
+      - ErmineBuild@v111.0.0
       - MozFennec@FIREFOX_111_0_RELEASE
       - MozGlean@v52.2.0
       - MozGleanAS@v52.0.0
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1764,16 +1764,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@v108.0.8
       - MozAppServices@v96.4.0
-      - MullBuild@v111.1.0
+      - ErmineBuild@v111.1.0
       - MozFennec@FIREFOX_111_0_1_RELEASE
       - MozGlean@v52.2.0
       - MozGleanAS@v52.0.0
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1792,16 +1792,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@v108.0.8
       - MozAppServices@v96.4.0
-      - MullBuild@v111.1.0
+      - ErmineBuild@v111.1.0
       - MozFennec@FIREFOX_111_0_1_RELEASE
       - MozGlean@v52.2.0
       - MozGleanAS@v52.0.0
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1820,16 +1820,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v110.0.1
       - MozAppServices@v97.2.0
-      - MullBuild@v112.0.0
+      - ErmineBuild@v112.0.0
       - MozFennec@FIREFOX_112_0_RELEASE
       - MozGlean@v52.3.0
       - MozGleanAS@v52.2.0
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1848,16 +1848,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v110.0.1
       - MozAppServices@v97.2.0
-      - MullBuild@v112.0.0
+      - ErmineBuild@v112.0.0
       - MozFennec@FIREFOX_112_0_RELEASE
       - MozGlean@v52.3.0
       - MozGleanAS@v52.2.0
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1876,16 +1876,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v110.0.1
       - MozAppServices@v97.2.0
-      - MullBuild@v112.1.0
+      - ErmineBuild@v112.1.0
       - MozFennec@FIREFOX_112_0_1_RELEASE
       - MozGlean@v52.3.0
       - MozGleanAS@v52.2.0
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1904,16 +1904,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v110.0.1
       - MozAppServices@v97.2.0
-      - MullBuild@v112.1.0
+      - ErmineBuild@v112.1.0
       - MozFennec@FIREFOX_112_0_1_RELEASE
       - MozGlean@v52.3.0
       - MozGleanAS@v52.2.0
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1932,16 +1932,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v110.0.1
       - MozAppServices@v97.2.0
-      - MullBuild@v112.2.0
+      - ErmineBuild@v112.2.0
       - MozFennec@FIREFOX_112_0_2_RELEASE
       - MozGlean@v52.3.0
       - MozGleanAS@v52.2.0
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1960,16 +1960,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v110.0.1
       - MozAppServices@v97.2.0
-      - MullBuild@v112.2.0
+      - ErmineBuild@v112.2.0
       - MozFennec@FIREFOX_112_0_2_RELEASE
       - MozGlean@v52.3.0
       - MozGleanAS@v52.2.0
       - rustup@1.25.2
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -1988,16 +1988,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v111.1.1
       - MozAppServices@v97.4.1
-      - MullBuild@v113.0.0
+      - ErmineBuild@v113.0.0
       - MozFennec@FIREFOX_113_0_RELEASE
       - MozGlean@v52.4.2
       - MozGleanAS@v52.2.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2016,16 +2016,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v111.1.1
       - MozAppServices@v97.4.1
-      - MullBuild@v113.0.0
+      - ErmineBuild@v113.0.0
       - MozFennec@FIREFOX_113_0_RELEASE
       - MozGlean@v52.4.2
       - MozGleanAS@v52.2.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2044,16 +2044,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v111.1.1
       - MozAppServices@v97.4.1
-      - MullBuild@v113.2.0
+      - ErmineBuild@v113.2.0
       - MozFennec@FIREFOX_113_0_2_RELEASE
       - MozGlean@v52.4.2
       - MozGleanAS@v52.2.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2072,16 +2072,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v111.1.1
       - MozAppServices@v97.4.1
-      - MullBuild@v113.2.0
+      - ErmineBuild@v113.2.0
       - MozFennec@FIREFOX_113_0_2_RELEASE
       - MozGlean@v52.4.2
       - MozGleanAS@v52.2.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2100,16 +2100,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v112.2.0
       - MozAppServices@v114.1
-      - MullBuild@v114.0.0
+      - ErmineBuild@v114.0.0
       - MozFennec@FIREFOX_114_0_RELEASE
       - MozGlean@v52.7.0
       - MozGleanAS@v52.6.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2128,16 +2128,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v112.2.0
       - MozAppServices@v114.1
-      - MullBuild@v114.0.0
+      - ErmineBuild@v114.0.0
       - MozFennec@FIREFOX_114_0_RELEASE
       - MozGlean@v52.7.0
       - MozGleanAS@v52.6.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2156,16 +2156,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v112.2.0
       - MozAppServices@v114.1
-      - MullBuild@v114.1.0
+      - ErmineBuild@v114.1.0
       - MozFennec@FIREFOX_114_0_1_RELEASE
       - MozGlean@v52.7.0
       - MozGleanAS@v52.6.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2184,16 +2184,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v112.2.0
       - MozAppServices@v114.1
-      - MullBuild@v114.1.0
+      - ErmineBuild@v114.1.0
       - MozFennec@FIREFOX_114_0_1_RELEASE
       - MozGlean@v52.7.0
       - MozGleanAS@v52.6.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2212,16 +2212,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v112.2.0
       - MozAppServices@v114.1
-      - MullBuild@v114.2.0
+      - ErmineBuild@v114.2.0
       - MozFennec@FIREFOX_114_0_2_RELEASE
       - MozGlean@v52.7.0
       - MozGleanAS@v52.6.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2240,16 +2240,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v112.2.0
       - MozAppServices@v114.1
-      - MullBuild@v114.2.0
+      - ErmineBuild@v114.2.0
       - MozFennec@FIREFOX_114_0_2_RELEASE
       - MozGlean@v52.7.0
       - MozGleanAS@v52.6.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2268,16 +2268,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v112.2.0
       - MozAppServices@v115.0
-      - MullBuild@v115.0.0
+      - ErmineBuild@v115.0.0
       - MozFennec@FIREFOX_115_0_RELEASE
       - MozGlean@v52.7.0
       - MozGleanAS@v52.6.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2296,16 +2296,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v112.2.0
       - MozAppServices@v115.0
-      - MullBuild@v115.0.0
+      - ErmineBuild@v115.0.0
       - MozFennec@FIREFOX_115_0_RELEASE
       - MozGlean@v52.7.0
       - MozGleanAS@v52.6.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2324,16 +2324,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v112.2.0
       - MozAppServices@v115.0
-      - MullBuild@v115.2.1
+      - ErmineBuild@v115.2.1
       - MozFennec@FIREFOX_115_0_2_RELEASE
       - MozGlean@v52.7.0
       - MozGleanAS@v52.6.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2352,16 +2352,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v112.2.0
       - MozAppServices@v115.0
-      - MullBuild@v115.2.1
+      - ErmineBuild@v115.2.1
       - MozFennec@FIREFOX_115_0_2_RELEASE
       - MozGlean@v52.7.0
       - MozGleanAS@v52.6.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2382,16 +2382,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v114.1.1
       - MozAppServices@v116.0
-      - MullBuild@v116.0.0
+      - ErmineBuild@v116.0.0
       - MozFennec@FIREFOX_116_0_RELEASE
       - MozGlean@v53.0.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2412,16 +2412,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v114.1.1
       - MozAppServices@v116.0
-      - MullBuild@v116.0.0
+      - ErmineBuild@v116.0.0
       - MozFennec@FIREFOX_116_0_RELEASE
       - MozGlean@v53.0.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2442,16 +2442,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v114.1.1
       - MozAppServices@v116.0
-      - MullBuild@v116.2.0
+      - ErmineBuild@v116.2.0
       - MozFennec@FIREFOX_116_0_2_RELEASE
       - MozGlean@v53.0.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2472,16 +2472,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v114.1.1
       - MozAppServices@v116.0
-      - MullBuild@v116.2.0
+      - ErmineBuild@v116.2.0
       - MozFennec@FIREFOX_116_0_2_RELEASE
       - MozGlean@v53.0.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2502,16 +2502,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v114.1.1
       - MozAppServices@v116.0
-      - MullBuild@v116.3.0
+      - ErmineBuild@v116.3.0
       - MozFennec@FIREFOX_116_0_3_RELEASE
       - MozGlean@v53.0.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2532,16 +2532,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v114.1.1
       - MozAppServices@v116.0
-      - MullBuild@v116.3.0
+      - ErmineBuild@v116.3.0
       - MozFennec@FIREFOX_116_0_3_RELEASE
       - MozGlean@v53.0.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2562,16 +2562,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v117.0
-      - MullBuild@v117.0.0
+      - ErmineBuild@v117.0.0
       - MozFennec@FIREFOX_117_0_RELEASE
       - MozGlean@v53.1.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2592,16 +2592,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v117.0
-      - MullBuild@v117.0.0
+      - ErmineBuild@v117.0.0
       - MozFennec@FIREFOX_117_0_RELEASE
       - MozGlean@v53.1.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2622,16 +2622,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v117.0
-      - MullBuild@v117.0.0
+      - ErmineBuild@v117.0.0
       - MozFennec@FIREFOX_117_0_RELEASE
       - MozGlean@v53.1.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2652,16 +2652,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v117.0
-      - MullBuild@v117.0.0
+      - ErmineBuild@v117.0.0
       - MozFennec@FIREFOX_117_0_RELEASE
       - MozGlean@v53.1.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
     antifeatures:
       KnownVuln:
@@ -2682,16 +2682,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v117.0
-      - MullBuild@v117.0.0
+      - ErmineBuild@v117.0.0
       - MozFennec@FIREFOX_117_0_1_RELEASE
       - MozGlean@v53.1.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 117.1.0
@@ -2709,16 +2709,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v117.0
-      - MullBuild@v117.0.0
+      - ErmineBuild@v117.0.0
       - MozFennec@FIREFOX_117_0_1_RELEASE
       - MozGlean@v53.1.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 118.0.0
@@ -2736,16 +2736,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v118.0
-      - MullBuild@v118.0.0
+      - ErmineBuild@v118.0.0
       - MozFennec@FIREFOX_118_0_RELEASE
       - MozGlean@v53.2.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 118.0.0
@@ -2763,16 +2763,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v118.0
-      - MullBuild@v118.0.0
+      - ErmineBuild@v118.0.0
       - MozFennec@FIREFOX_118_0_RELEASE
       - MozGlean@v53.2.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 118.1.0
@@ -2790,16 +2790,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v118.0
-      - MullBuild@v118.1.0
+      - ErmineBuild@v118.1.0
       - MozFennec@FIREFOX_118_0_1_RELEASE
       - MozGlean@v53.2.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 118.1.0
@@ -2817,16 +2817,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v118.0
-      - MullBuild@v118.1.0
+      - ErmineBuild@v118.1.0
       - MozFennec@FIREFOX_118_0_1_RELEASE
       - MozGlean@v53.2.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 118.2.0
@@ -2844,16 +2844,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v118.0
-      - MullBuild@v118.1.0
+      - ErmineBuild@v118.1.0
       - MozFennec@FIREFOX_118_0_2_RELEASE
       - MozGlean@v53.2.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 118.2.0
@@ -2871,16 +2871,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v115.0.1
       - MozAppServices@v118.0
-      - MullBuild@v118.1.0
+      - ErmineBuild@v118.1.0
       - MozFennec@FIREFOX_118_0_2_RELEASE
       - MozGlean@v53.2.0
       - MozGleanAS@v52.7.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 119.0.0
@@ -2898,16 +2898,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v119.0
-      - MullBuild@v119.0.0
+      - ErmineBuild@v119.0.0
       - MozFennec@FIREFOX_119_0_RELEASE
       - MozGlean@v54.0.0
       - MozGleanAS@v53.1.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 119.0.0
@@ -2925,16 +2925,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v119.0
-      - MullBuild@v119.0.0
+      - ErmineBuild@v119.0.0
       - MozFennec@FIREFOX_119_0_RELEASE
       - MozGlean@v54.0.0
       - MozGleanAS@v53.1.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 119.1.0
@@ -2952,16 +2952,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v119.0
-      - MullBuild@v119.1.0
+      - ErmineBuild@v119.1.0
       - MozFennec@FIREFOX_119_0_1_RELEASE
       - MozGlean@v54.0.0
       - MozGleanAS@v53.1.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 119.1.0
@@ -2979,16 +2979,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v119.0
-      - MullBuild@v119.1.0
+      - ErmineBuild@v119.1.0
       - MozFennec@FIREFOX_119_0_1_RELEASE
       - MozGlean@v54.0.0
       - MozGleanAS@v53.1.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 120.0.0
@@ -3006,16 +3006,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v120.0.1
-      - MullBuild@v120.0.0
+      - ErmineBuild@v120.0.0
       - MozFennec@FIREFOX_120_0_RELEASE
       - MozGlean@v54.0.0
       - MozGleanAS@v53.1.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 120.0.0
@@ -3033,16 +3033,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v120.0.1
-      - MullBuild@v120.0.0
+      - ErmineBuild@v120.0.0
       - MozFennec@FIREFOX_120_0_RELEASE
       - MozGlean@v54.0.0
       - MozGleanAS@v53.1.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 120.1.0
@@ -3060,16 +3060,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v120.0.2
-      - MullBuild@v120.1.0
+      - ErmineBuild@v120.1.0
       - MozFennec@FIREFOX_120_0_1_RELEASE
       - MozGlean@v54.0.0
       - MozGleanAS@v53.1.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 120.1.0
@@ -3087,16 +3087,16 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v120.0.2
-      - MullBuild@v120.1.0
+      - ErmineBuild@v120.1.0
       - MozFennec@FIREFOX_120_0_1_RELEASE
       - MozGlean@v54.0.0
       - MozGleanAS@v53.1.0
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 121.0.0
@@ -3114,17 +3114,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v121.0
-      - MullBuild@v121.0.0
+      - ErmineBuild@v121.0.0
       - MozFennec@FIREFOX_121_0_RELEASE
       - MozGlean@v55.0.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 121.0.0
@@ -3142,17 +3142,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v121.0
-      - MullBuild@v121.0.0
+      - ErmineBuild@v121.0.0
       - MozFennec@FIREFOX_121_0_RELEASE
       - MozGlean@v55.0.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-16
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 121.1.0
@@ -3170,17 +3170,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v121.0
-      - MullBuild@v121.1.0
+      - ErmineBuild@v121.1.0
       - MozFennec@FIREFOX_121_0_1_RELEASE
       - MozGlean@v55.0.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 121.1.0
@@ -3198,17 +3198,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v121.0
-      - MullBuild@v121.1.0
+      - ErmineBuild@v121.1.0
       - MozFennec@FIREFOX_121_0_1_RELEASE
       - MozGlean@v55.0.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r21d
 
   - versionName: 122.0.0
@@ -3226,17 +3226,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v122.0.1
-      - MullBuild@v122.0.0
+      - ErmineBuild@v122.0.0
       - MozFennec@FIREFOX_122_0_RELEASE
       - MozGlean@v56.0.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 122.0.0
@@ -3254,17 +3254,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v122.0.1
-      - MullBuild@v122.0.0
+      - ErmineBuild@v122.0.0
       - MozFennec@FIREFOX_122_0_RELEASE
       - MozGlean@v56.0.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 122.1.0
@@ -3282,17 +3282,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v122.0.1
-      - MullBuild@v122.1.0
+      - ErmineBuild@v122.1.0
       - MozFennec@FIREFOX_122_0_1_RELEASE
       - MozGlean@v56.0.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 122.1.0
@@ -3310,17 +3310,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v122.0.1
-      - MullBuild@v122.1.0
+      - ErmineBuild@v122.1.0
       - MozFennec@FIREFOX_122_0_1_RELEASE
       - MozGlean@v56.0.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 123.0.0
@@ -3338,17 +3338,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v123.0.1
-      - MullBuild@v123.0.0
+      - ErmineBuild@v123.0.0
       - MozFennec@FIREFOX_123_0_RELEASE
       - MozGlean@v56.1.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 123.0.0
@@ -3366,17 +3366,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v123.0.1
-      - MullBuild@v123.0.0
+      - ErmineBuild@v123.0.0
       - MozFennec@FIREFOX_123_0_RELEASE
       - MozGlean@v56.1.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 123.1.0
@@ -3394,17 +3394,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v123.0.1
-      - MullBuild@v123.1.0
+      - ErmineBuild@v123.1.0
       - MozFennec@FIREFOX_123_0_1_RELEASE
       - MozGlean@v56.1.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 123.1.0
@@ -3422,17 +3422,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v117.0.1
       - MozAppServices@v123.0.1
-      - MullBuild@v123.1.0
+      - ErmineBuild@v123.1.0
       - MozFennec@FIREFOX_123_0_1_RELEASE
       - MozGlean@v56.1.0
       - MozGleanAS@v53.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.26.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 124.0.0
@@ -3450,17 +3450,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v122.0
       - MozAppServices@v124.0
-      - MullBuild@v124.0.0
+      - ErmineBuild@v124.0.0
       - MozFennec@FIREFOX_124_0_RELEASE
       - MozGlean@v57.0.0
       - MozGleanAS@v56.0.0
       - gmscore@v0.3.0.233515
       - rustup@1.27.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 124.0.0
@@ -3478,17 +3478,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v122.0
       - MozAppServices@v124.0
-      - MullBuild@v124.0.0
+      - ErmineBuild@v124.0.0
       - MozFennec@FIREFOX_124_0_RELEASE
       - MozGlean@v57.0.0
       - MozGleanAS@v56.0.0
       - gmscore@v0.3.0.233515
       - rustup@1.27.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 124.1.0
@@ -3504,17 +3504,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v122.0
       - MozAppServices@v124.0
-      - MullBuild@v124.1.0
+      - ErmineBuild@v124.1.0
       - MozFennec@FIREFOX_124_0_1_RELEASE
       - MozGlean@v57.0.0
       - MozGleanAS@v56.0.0
       - gmscore@v0.3.0.233515
       - rustup@1.27.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 124.1.0
@@ -3530,17 +3530,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v122.0
       - MozAppServices@v124.0
-      - MullBuild@v124.1.0
+      - ErmineBuild@v124.1.0
       - MozFennec@FIREFOX_124_0_1_RELEASE
       - MozGlean@v57.0.0
       - MozGleanAS@v56.0.0
       - gmscore@v0.3.0.233515
       - rustup@1.27.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 124.2.0
@@ -3556,17 +3556,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v122.0
       - MozAppServices@v124.0
-      - MullBuild@v124.2.0
+      - ErmineBuild@v124.2.0
       - MozFennec@FIREFOX_124_0_2_RELEASE
       - MozGlean@v57.0.0
       - MozGleanAS@v56.0.0
       - gmscore@v0.3.0.233515
       - rustup@1.27.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 124.2.0
@@ -3582,17 +3582,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v122.0
       - MozAppServices@v124.0
-      - MullBuild@v124.2.0
+      - ErmineBuild@v124.2.0
       - MozFennec@FIREFOX_124_0_2_RELEASE
       - MozGlean@v57.0.0
       - MozGleanAS@v56.0.0
       - gmscore@v0.3.0.233515
       - rustup@1.27.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r25c
 
   - versionName: 125.3.0
@@ -3608,17 +3608,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v123.0
       - MozAppServices@v125.0.1
-      - MullBuild@v125.3.0
+      - ErmineBuild@v125.3.0
       - MozFennec@FIREFOX_125_0_3_RELEASE
       - MozGlean@v58.1.0
       - MozGleanAS@v56.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.27.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r26c
 
   - versionName: 125.3.0
@@ -3634,17 +3634,17 @@ Builds:
     srclibs:
       - FirefoxAndroidAS@components-v123.0
       - MozAppServices@v125.0.1
-      - MullBuild@v125.3.0
+      - ErmineBuild@v125.3.0
       - MozFennec@FIREFOX_125_0_3_RELEASE
       - MozGlean@v58.1.0
       - MozGleanAS@v56.1.0
       - gmscore@v0.3.0.233515
       - rustup@1.27.0
       - wasi-sdk@wasi-sdk-20
-    prebuild: $$MullBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
+    prebuild: $$ErmineBuild$$/prebuild.sh $$VERSION$$ $$VERCODE$$
     scanignore:
       - android-components/components/lib/publicsuffixlist/src/main/assets/publicsuffixes
-    build: $$MullBuild$$/build.sh
+    build: $$ErmineBuild$$/build.sh
     ndk: r26c
 
   - versionName: 127.0.0
